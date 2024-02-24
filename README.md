@@ -1,6 +1,7 @@
 # EPG-to-Trakt
 A tool to convert JSON formatted EPG to Trakt List. 
 
+# Preamble
 To create the list, I used the tool provided here:
 https://github.com/freearhey/epg-parser
 
