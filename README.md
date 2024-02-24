@@ -16,7 +16,7 @@ console.log(JSON.stringify(result, null, 8))
 ```
 3. To run EPG Parser, open Command Prompt into cloned repo. Copy your XML into and run this command to output to JSON file:
 ```
-node ./test.js > Your_EPG.json 2>&1
+node ./epg-parser.js > Your_EPG.json 2>&1
 ```
 4. Keep the `Your_EPG.json` file in a place you'll remember, you'll need it for this EPG-to-Trakt.
 
