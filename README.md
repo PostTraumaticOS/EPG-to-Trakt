@@ -3,6 +3,8 @@ A python tool to convert JSON formatted EPG to Trakt List. If it runs into an ep
 
 Special thanks to https://github.com/shashankbm09 for helping with the code.
 
+Due to Trakt's API limits, this tool is intended to be used with 1-3 days of programming only. It is intended for you to choose one channel, output the EPG, and create a channel playlist on Trakt.
+
 # Preamble
 To create the list, I used the Node.JS tool provided here:
 https://github.com/freearhey/epg-parser
