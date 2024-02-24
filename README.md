@@ -14,7 +14,7 @@ const epg = fs.readFileSync('./test/data/EPG_FROM_STEP_1.xml', { encoding: 'utf-
 const result = parser.parse(epg)
 console.log(JSON.stringify(result, null, 8))
 ```
-3. To run EPG Parser, open Command Prompt into cloned repo. Copy your XML into and run this command to output to JSON file:
+3. To run EPG Parser, open Command Prompt into cloned repo and run this command to output to JSON file:
 ```
 node ./epg-parser.js > Your_EPG.json 2>&1
 ```
