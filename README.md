@@ -5,6 +5,11 @@ Special thanks to https://github.com/shashankbm09 for helping with the code.
 
 Due to Trakt's API limits, this tool is intended to be used with 1-5 days of programming only. It is intended for you to choose one channel, output the EPG (using your own tools), convert to JSON, and finally use this tool create a channel playlist on Trakt. To be on the safe side, I do one channel per minute.
 
+```
+AUTHED_API_POST_LIMIT = 1 call per second
+AUTHED_API_GET_LIMIT = 1,000 calls every 5 minutes
+```
+
 Trakt VIP required (Trakt API limit restricts `Create List` action to VIP users only)
 
 # Preamble
