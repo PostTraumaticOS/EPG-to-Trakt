@@ -1,5 +1,23 @@
 # EPG-to-Trakt
-A tool to convert JSON formatted EPG to Trakt List
+A tool to convert JSON formatted EPG to Trakt List. 
+
+To create the list, I used the tool provided here:
+https://github.com/freearhey/epg-parser
+
+1. Clone above repo and copy your EPG XML into "epg-parser-master\test\data"
+2. Create a file called epg-parser.js, and copy/paste the code below inside, and save.
+```import fs from 'fs'
+import parser from 'epg-parser'
+
+const epg = fs.readFileSync('./test/data/EPG_FROM_STEP_1.xml', { encoding: 'utf-8' })
+const result = parser.parse(epg)
+console.log(JSON.stringify(result, null, 8))
+```
+3. To run EPG Parser, open Command Prompt into cloned repo. Copy your XML into and run this command to output to JSON file:
+```node ./test.js > Your_EPG.json 2>&1
+```
+4. Keep the `Your_EPG.json` file in a place you'll remember, you'll need it for this EPG-to-Trakt.
+
 
 ## Code Documentation
 
