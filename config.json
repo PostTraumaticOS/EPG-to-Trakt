@@ -1,0 +1,16 @@
+{
+"user_id": "PUT_USER_ID_HERE",
+  "client_id": "PUT_TRAKT_APP_API_ID_HERE",
+  "client_secret": "PUT_TRAKT_APP_API_SECRET_HERE",
+  "redirect_uri": "urn:ietf:wg:oauth:2.0:oob",
+  "json_file_name": "YOUR_EPG.json",
+  "list_data": {
+    "name": "Your List Name",
+    "description": "Your List Description",
+    "privacy": "private",
+    "display_numbers": true,
+    "allow_comments": true,
+    "sort_by": "rank",
+    "sort_how": "asc"
+  }
+}
