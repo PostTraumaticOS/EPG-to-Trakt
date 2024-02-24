@@ -1,7 +1,7 @@
 # EPG-to-Trakt
 A python tool to convert JSON formatted EPG to Trakt List.
 
-# 0 | Preamble
+# 0 - Preamble
 To create the list, I used the Node.JS tool provided here:
 https://github.com/freearhey/epg-parser
 
@@ -22,7 +22,7 @@ node ./epg-parser.js > Your_EPG.json 2>&1
 4. Keep the `Your_EPG.json` file in a place you'll remember, you'll need it for EPG-to-Trakt.
 
 
-## 1 | EPG-to-Trakt Documentation
+## 1 - EPG-to-Trakt Documentation
 
 This document provides an overview of the code along with necessary setup instructions, configuration details, and requirements for running the provided Python script.
 
