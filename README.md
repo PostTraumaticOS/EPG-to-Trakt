@@ -1,6 +1,8 @@
 # EPG-to-Trakt
 A python tool to convert JSON formatted EPG to Trakt List. If it runs into an episode with bad/mismatching metadata, it will output an error, move on, and post a message once successfully finished. As of now, only TV Show Episodes are being added. Support for Movies will be included in future revisions.
 
+Special thanks to https://github.com/shashankbm09 for helping with the code.
+
 # Preamble
 To create the list, I used the Node.JS tool provided here:
 https://github.com/freearhey/epg-parser
