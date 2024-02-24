@@ -18,7 +18,7 @@ console.log(JSON.stringify(result, null, 8))
 ```
 node ./epg-parser.js > Your_EPG.json 2>&1
 ```
-4. Keep the `Your_EPG.json` file in a place you'll remember, you'll need it for this EPG-to-Trakt.
+4. Keep the `Your_EPG.json` file in a place you'll remember, you'll need it for EPG-to-Trakt.
 
 
 ## Code Documentation
