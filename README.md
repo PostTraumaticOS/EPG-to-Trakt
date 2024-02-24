@@ -6,7 +6,8 @@ To create the list, I used the tool provided here:
 https://github.com/freearhey/epg-parser
 
 1. Clone above repo and copy your EPG XML into "epg-parser-master\test\data"
-2. Create a file called `epg-parser.js`, and copy/paste the code below inside, and save inside main repo folder.
+2. Open a command prompt and run this command ```npm install epg-parser```
+3. Create a file called `epg-parser.js`, and copy/paste the code below inside, and save inside main repo folder.
 ```import fs from 'fs'
 import parser from 'epg-parser'
 
