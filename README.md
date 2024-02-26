@@ -12,6 +12,8 @@ AUTHED_API_GET_LIMIT = 1,000 calls every 5 minutes
 
 Trakt VIP required (Trakt API limit restricts `Create List` action to VIP users only)
 
+Example EPG Source (Non-Profit): https://www.schedulesdirect.org/
+
 # Preamble
 To create the list, I used the Node.JS tool provided here:
 https://github.com/freearhey/epg-parser
